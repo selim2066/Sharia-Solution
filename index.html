@@ -103,34 +103,43 @@
         </nav>
 
         <!-- banner -->
-         <section class="mt-10 relative">
-                <!-- bg img -->
-                 <img class="object-cover w-full h-[550px]" src="images/banner.png" alt="">
+        <section class="mt-10 relative">
+            <!-- bg img -->
+            <img class="rounded-lg object-cover w-full h-[550px]" src="images/banner.png" alt="">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/10"></div>
 
-                 <!-- text content part -->
-                  <div class="w-[692px]  h-[342px] text-center text-yellow-400 absolute inset-0 flex flex-col items-center justify-center mx-auto bg-black/50">
-                    <h1 class="text-6xl font-extrabold">We Provide Effective Sharia Solutions</h1>
-                    <p class="text-xl">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <!-- text content part -->
+            <div
+                class="w-[692px]  h-[342px] space-y-5 text-center  absolute inset-0 flex flex-col items-center justify-center  md:mx-[124px] my-[88px] lg:mx-auto">
+                <h1 class="text-7xl font-extrabold text-white">We Provide Effective Sharia Solutions</h1>
+                <p class="text-xl text-white">There are many variations of passages of Lorem Ipsum available, but the majority have
+                    suffered alteration in some form, by injected humour.</p>
 
-                    <!-- button and search box -->
-                    <!-- <label class="input w-3/5">
+                <!-- button and search box -->
+                <!-- <label class="input w-3/5">
                         <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
                         <input type="search" required placeholder="Search"/>
                       </label> -->
 
-                      <div class="join space-x-5">
-                        <div>
-                          <label class="input validator join-item">
-                            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
-                        <input type="search" required placeholder="Search"/>
-                          </label>
-                          <div class="validator-hint hidden">Enter valid email address</div>
-                        </div>
-                        <button class="btn btn-neutral join-item bg-[#B68C5A] font-bold">Search</button>
-                      </div>
+                <div class="join space-x-5 ">
+                    <div class="">
+                        <label class="input validator join-item w-[500px] rounded-lg">
+                            <svg class="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <g stroke-linejoin="round" stroke-linecap="round" stroke-width="2.5" fill="none"
+                                    stroke="currentColor">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <path d="m21 21-4.3-4.3"></path>
+                                </g>
+                            </svg>
+                            <input class="text-red-700 font-bold" type="search" required placeholder="Search Your Services" />
+                        </label>
+                        <div class="validator-hint hidden text-yellow-600"></div>
+                    </div>
+                    <button class="btn btn-neutral rounded-lg join-item bg-[#B68C5A] font-bold">Search</button>
+                </div>
 
-                  </div>
-         </section>
+            </div>
+        </section>
     </header>
 
 
