@@ -56,22 +56,23 @@
                     <a class="btn btn-ghost text-xl w-[158.62px] h-[46px] md:bg-[url('images/logo2.png')]"></a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 p-2 bg-white ">
                         <li><a>Home</a></li>
-                        <li>
-                            <details>
-                                <summary>Service ></summary>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                        <!-- <li class="relative">
+                            <details class="absolute bg-white shadow-md rounded-md z-50">
+                                <summary class="cursor-pointer w-25 ">Service ></summary>
+                                <ul class="absolute left-0 top-full p-2 bg-white shadow-lg w-30">
+                                    <li><a href="#">Submenu 1</a></li>
+                                    <li><a href="#">Submenu 2</a></li>
                                 </ul>
                             </details>
-                        </li>
-                        <li>
+                        </li> -->
+                        
+                        <li >
                             <details>
                                 <summary>Cases ></summary>
                                 <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Case 1</a></li>
                                     <li><a>Submenu 2</a></li>
                                 </ul>
                             </details>
@@ -103,10 +104,11 @@
         </nav>
 
         <!-- banner -->
-        <section class="mt-10 relative">
+        <section class="mt-10 relative bg-[url('images/banner.png')] bg-cover bg-center bg-no-repeat h-[550px] rounded-lg">
             <!-- bg img -->
-            <img class="rounded-lg object-cover w-full h-[550px]" src="images/banner.png" alt="">
-            <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-black/10"></div>
+             <!-- <div class="bg"></div>
+            <img class="rounded-lg object-cover w-full h-[550px]" src="images/banner.png" alt=""> -->
+            <div class="absolute rounded-lg inset-0 bg-gradient-to-t from-black/70 to-black/10"></div>
 
             <!-- text content part -->
             <div
@@ -135,12 +137,58 @@
                         </label>
                         <div class="validator-hint hidden text-yellow-600"></div>
                     </div>
-                    <button class="btn btn-neutral rounded-lg join-item bg-[#B68C5A] font-bold">Search</button>
+                    <button class="btn btn-neutral rounded-lg join-item bg-[#B68C5A] font-extrabold text-white">Search</button>
                 </div>
 
             </div>
         </section>
     </header>
+
+    <!-- main -->
+     <main class="ml-10 mr-10 lg:max-w-screen-xl md:mx-auto md:max-w-screen-lg  mt-10 mb-20">
+
+        <!-- Heading -->
+         <div class="text-center space-y-5">
+            <h1 class="font-bold text-3xl">The Legal Practice Area</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+         </div>
+
+         <!-- grid section -->
+          <section class="grid grid-cols-3  divide-x divide-y divide-gray-400  ">
+            <div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div><div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div><div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div><div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div><div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div><div class="text-center mt-10 flex flex-col items-center justify-center">
+                <img  src="images/business.png" alt="">
+                <h2 class="font-bold text-2xl p-4">Business Law</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in orci id neque viverra condimentum.</p>
+
+            </div>
+          </section>
+
+     </main>
 
 
 </body>
