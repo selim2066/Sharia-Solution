@@ -20,5 +20,4 @@
 - 📞 Contact section with a message form and address cards
 - 🦶 Custom footer with links and newsletter subscription
 
-## 📁 Folder Structure
 
